@@ -29,6 +29,15 @@
 			<scope>provided</scope>
 			<version>${spring-boot.version}</version>
 		</dependency>
+		
+		
+		<!-- 性能监控 -->
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-starter-actuator</artifactId>
+		    <version>${spring-boot.version}</version>
+		</dependency>
+		
 	</dependencies>
 	
 </project>
